@@ -293,7 +293,6 @@
     <body style="background-color: #354857">
         <div class="bg">
             <div style="text-align: center; padding-top: 8%;"><a href="" class="top-center">Pecel Bu Nanik</a></div>
-            <a href="" class="chat">Chat</a>
             <a href="/" class="logout">Logout</a>
             
             <img class="crop" src="/img/prof.jpg">

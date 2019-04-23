@@ -211,7 +211,7 @@
         <div class="bg">
             <a href="/marketplace" class="top-left" style=" ">Market Place</a>
             <a href="/foodrecipe" class="top-right" style=" ">Food Recipe</a>
-            <a href="" class="chat" style=" ">Chat</a>
+            <a href="" class="chat" style=" ">Post</a>
             <a href="" class="logout" style="">Logout</a>
             <img class="crop" src="/img/prof.jpg">
             <a href="" class="top-leftnew">Profile</a>

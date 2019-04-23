@@ -258,7 +258,7 @@
     <body style="background-color: #354857">
         <div class="bg">
             <p class="top-center">Food Recipe</p>
-            <a href="" class="chat" style=" ">Chat</a>
+            <a href="" class="chat" style=" ">Post</a>
             <a href="" class="logout" style="">Logout</a>
             <img class="crop" src="/img/prof.jpg">
             <a href="/profil" class="top-leftnew">Profile</a>
