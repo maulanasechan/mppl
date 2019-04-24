@@ -256,6 +256,7 @@
         </style>
     </head>
     <body style="background-color: #354857">
+<<<<<<< HEAD
         <div class="bg">
             <p class="top-center">Market Place</p>
             <a href="" class="chat" style=" ">Post</a>
@@ -268,6 +269,20 @@
                 top: 40%;"></a>
             <div class="flex-center">
                 <a href="/home" class="round-button" style="margin-top: 538px; margin-right: 0px;">Back</a>
+=======
+        <div class="bg" style="background-image: url({{url('/img/websitemppl8.jpg)')}}">
+            <p class="top-center">Market Place</p>
+            <a href="" class="chat" style=" ">Post</a>
+            <a href="" class="logout" style="">Logout</a>
+            <img class="crop" src="{{ asset('img/prof.jpg') }}">
+            <a href="{{ url('profil') }}" class="top-leftnew">Profile</a>
+            <a href=""><img class='top-right' src="{{ asset('img/appetaizer.png') }}" style="width: auto; height: 20%; right: 64%; top: 40%;"></a>
+            <a href=""><img class='top-right' src="{{ asset('img/maincourse.png') }}" style="width: auto; height: 20%; right: 43%; top: 40%;"></a>
+            <a href=""><img class='top-right' src="{{ asset('img/dessert.png') }}" style="width: auto; height: 20%; right: 22%;
+                top: 40%;"></a>
+            <div class="flex-center">
+                <a href="{{ url('home') }}" class="round-button" style="margin-top: 538px; margin-right: 0px;">Back</a>
+>>>>>>> dynamic asset
             </div>
         </div>
 </div>

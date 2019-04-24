@@ -293,11 +293,19 @@
         </style>
     </head>
     <body style="background-color: #354857">
+<<<<<<< HEAD
         <div class="bg">
             <a href="" class="top-center" style="">Edit Profile</a>
             <a href="/home" class="chat" style=" ">Back</a>
             <a href="/" class="logout" style="">Logout</a>
             <img class="crop" src="/img/prof.jpg">
+=======
+        <div class="bg" style="background-image: url({{url('/img/websitemppl9.jpg)')}}">
+            <a href="" class="top-center" style="">Edit Profile</a>
+            <a href="/home" class="chat" style=" ">Back</a>
+            <a href="/" class="logout" style="">Logout</a>
+            <img class="crop" src="{{ asset('img/prof.jpg') }}">
+>>>>>>> dynamic asset
             <a href="" class="top-leftnew">Upload</a>
             <form method="POST" >
                 <center>

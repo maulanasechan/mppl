@@ -29,6 +29,12 @@ Route::get('/foodrecipe', function () {
 Route::get('/marketplace', function () {
     return view('marketplace.index');
 });
+<<<<<<< HEAD
 // Auth::routes();
 
 // Route::get('/home', 'HomeController@index')->name('home');
+=======
+//Auth::routes();
+
+//Route::get('/home', 'HomeController@index')->name('home');
+>>>>>>> dynamic asset
