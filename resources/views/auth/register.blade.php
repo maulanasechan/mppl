@@ -20,7 +20,6 @@
             }
 
             .bg{
-                background-image: url("/img/websitemppl6.jpg");
                 height: 100%;
                 margin: 0;
                 /* Center and scale the image nicely */
@@ -136,12 +135,12 @@
         </style>
     </head>
     <body style="background-color: #354857">
-        <div class="bg">
+        <div class="bg" style="background-image: url({{url('/img/websitemppl6.jpg)')}}">
                 <div class="top-left links" style="">
                     <a href="/">Login</a>
                 </div>
 
-<!--             <div class="content">
+        <!--<div class="content">
                 <a href="{{ route('login') }}" class="round-button" style="margin-top: 528%">Log in</a>
             </div> -->
                 <form method="POST" action="{{ route('register') }}">

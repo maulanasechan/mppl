@@ -18,7 +18,11 @@
             <a href="{{ url('marketplace') }}" class="top-left" style=" ">Market Place</a>
             <a href="{{ url('foodrecipe') }}" class="top-right" style=" ">Food Recipe</a>
             <a href="" class="chat" style=" ">Post</a>
-            <a href="" class="logout" style="">Logout</a>
+            <a href="{{ route('logout') }}" onclick="event.preventDefault();
+                document.getElementById('logout-form').submit();" class="logout" style="">Logout</a>
+            <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                @csrf
+            </form>
             <img class="crop" src="/img/prof.jpg">
             <a href="{{ url('profile') }}" class="top-leftnew">Profile</a>
         </div>

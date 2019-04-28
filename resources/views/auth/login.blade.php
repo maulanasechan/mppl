@@ -20,7 +20,6 @@
             }
 
             .bg{
-                background-image: url("/img/websitemppl5.jpg");
                 height: 100%;
                 margin: 0;
                 /* Center and scale the image nicely */
@@ -124,7 +123,7 @@
         </style>
     </head>
     <body style="background-color: #354857">
-        <div class="bg">
+        <div class="bg" style="background-image: url({{url('/img/websitemppl5.jpg)')}}">
                 <div class="top-right links" style="">
                     <a href="/">Back</a>
                 </div>
@@ -133,6 +132,7 @@
                 <a href="{{ route('login') }}" class="round-button" style="margin-top: 528%">Log in</a>
             </div> -->
                 <form method="POST" action="{{ route('login') }}">
+                    @csrf
                         <center>
                             <input id="email" type="text" class="form-control{{ $errors->has('email') ? ' is-invalid' : '' }}" name="email" value="{{ old('email') }}" required autofocus style="margin-top: 422px" placeholder="Username">
 
